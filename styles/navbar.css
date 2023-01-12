@@ -1,0 +1,19 @@
+@import './constants.css';
+
+nav.navbar {
+    background-color: var(--color-black);
+}
+nav.navbar .navbar-brand,
+nav.navbar li a.nav-link,
+nav.navbar li a.nav-link.active {
+    color: var(--color-gold);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 20px;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active {
+    font-weight: 500;
+}

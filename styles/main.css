@@ -1,0 +1,50 @@
+section.top {
+    height: 100vh;
+}
+
+section.top .text__title {
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+section.top .text__title strong {
+    color: var(--color-gold);
+}
+section.top .btn__consultanos {
+    background-color: var(--color-green);
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 200px;
+    height: 50px;
+    border-radius: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+section.top .btn__consultanos:hover {
+    background-color: var(--color-black);
+    color: #FFF;
+    border: 1px solid #FFF;
+}
+section.top .img__main {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid var(--color-gold);
+}
+
+@media only screen and (min-width: 768px) {
+    section.top .text__title {
+        font-size: 2rem;
+    }
+    section.top .img__main {
+        width: 400px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    section.top .text__title {
+        font-size: 2rem;
+    }
+}
