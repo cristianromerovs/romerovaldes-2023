@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-main: rgb(8 145 178);
+  --color-semi-white: #f9f9f9;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+.navbar__logo {
+  width: fit-content;
+  height: 50px;
+}
+/* SECTION MAIN */
+section.main_section .main__img {
+  width: 250px;
+  height: 250px;
+}
+
+/* SECTION ABOUT */
+section.about_section .attorney__img {
+  width: 250px;
+  height: auto;
+  border: 5px solid var(--color-main);
+}
+
+section.about_section .profile_img {
+  width: 150px;
+  height: auto;
+  border: 2px solid var(--color-main);
+}
+
+@media only screen and (min-width: 900px) {
+  .main__img {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+/* SECTION SERVICES */
+section.services_section ul li::before {
+  content: "\2022";
+  color: rgb(17, 24, 39);
+  font-weight: bold; 
+  display: inline-block;
+  width: 1em;
+}
+/* SECTION SCHEDULE */
+section.schedule_section form input::-webkit-outer-spin-button,
+section.schedule_section form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+section.schedule_section form input[type=number] {
+  -moz-appearance: textfield;
+}
+
+section.schedule_section .bg-form {
+  background-image: url('../public/bg-form.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
