@@ -10,19 +10,22 @@ const Nosotros = () => {
       <section className="my-20 about_section" id="about">
         <div className="grid grid-cols-4 gap-6 mb-10">
           <div className="flex flex-col col-span-4 md:col-span-2">
-            <h2 className="text-2xl font-bold tracking-tight text-cyan-600 mb-3">
+            <h2 className="text-3xl text-center md:text-start font-bold tracking-tight text-yellow-600 mb-3">
               Sobre nosotros
             </h2>
-            <p className="text-base font-normal text-gray-900 text-justify">
-              Romero Valdés & Cía. es un estudio jurídico, integrado por
-              abogados penales expertos, quienes se desempeñan como querellantes
-              y defensores penales. Nuestra misión es proteger, reclamar y
-              defender los derechos de nuestros clientes a través de un servicio
-              de asesoría legal y representación legal, personalizado, integral
-              y a tu alcance. La visión de nuestro estudio jurídico se ve
-              reflejada en el esfuerzo de nuestros abogados por estar en
-              constante perfeccionamiento para brindar de esta forma, un
-              excelente servicio a nuestros clientes.
+            <p className="text-base font-normal text-gray-700 text-justify">
+              <b>Romero Valdés & Cía.</b> es un estudio jurídico, integrado por{" "}
+              <strong>abogados penales expertos</strong>, quienes se desempeñan
+              como querellantes y defensores penales. Nuestra misión es
+              proteger,{" "}
+              <strong>
+                reclamar y defender los derechos de nuestros clientes
+              </strong>{" "}
+              a través de un servicio de asesoría legal y representación legal,
+              personalizado, integral y a tu alcance. La visión de nuestro
+              estudio jurídico se ve reflejada en el esfuerzo de nuestros
+              abogados por estar en constante perfeccionamiento para brindar de
+              esta forma, un excelente servicio a nuestros clientes.
             </p>
           </div>
           <div className="flex justify-center items-center col-span-4 md:col-span-2">
@@ -35,22 +38,27 @@ const Nosotros = () => {
         </div>
         <div className="grid grid-cols-4">
           <div className="flex flex-col col-span-4">
-            <h2 className="text-2xl font-bold tracking-tight text-cyan-600 mb-3">
-              ¿Por qué elegirnos?
-            </h2>
-            <p className="text-base font-normal text-gray-900 text-justify">
-              RomeroValdés & Cía es un equipo de abogados con amplia experiencia
-              en Derecho Penal y Derecho de Familia. Ofrecen soluciones legales
-              efectivas para clientes que enfrentan situaciones legales
-              complicadas. Su enfoque se basa en brindar un servicio legal
-              completo y personalizado, manteniendo una relación transparente y
-              honesta con los clientes. Se esfuerzan por proporcionar apoyo y
-              comunicación constante para que los clientes se sientan tranquilos
-              y acompañados durante todo el proceso. El despacho trabaja en
-              casos relacionados con delitos económicos, delitos sexuales,
-              delitos de drogas, violencia familiar y conducción en estado de
-              ebriedad, entre otros. Si necesitas ayuda con tu caso, puedes
-              contactar a RomeroValdés & Cía.
+            <h3 className="text-3xl text-center md:text-start font-bold tracking-tight text-yellow-600 mb-3">
+              Nuestra trayectoria profesional
+            </h3>
+            <p className="text-base font-normal text-gray-700 text-justify">
+              Nuestro equipo de abogados penales se enorgullece de haber
+              representado a una amplia gama de clientes a lo largo de estos
+              años, brindando servicios legales especializados y obteniendo
+              resultados exitosos.{" "}
+              <strong>
+                Hemos asistido a más de 500 clientes en casos penales diversos
+              </strong>
+              , desde delitos menores hasta delitos graves, y{" "}
+              <strong>
+                hemos logrado una tasa de éxito del 93% en resolución de casos
+              </strong>
+              . Nuestro enfoque se centra en brindar a nuestros clientes la
+              representación legal más sólida y efectiva en el ámbito penal en
+              Chile. Entendemos que enfrentar un caso penal puede ser una
+              experiencia intimidante y estresante, por lo que nos comprometemos
+              a brindar un servicio personalizado y comprensivo a cada uno de
+              nuestros clientes.
             </p>
           </div>
         </div>
@@ -61,10 +69,10 @@ const Nosotros = () => {
               alt="Imagen de abogada Alejandra Romero"
               className="profile_img rounded-full"
             />
-            <h3 className="text-2xl font-bold text-gray-900 my-3">
+            <h4 className="text-2xl text-center font-bold text-yellow-600 my-3">
               Alejandra Romero Valdés
-            </h3>
-            <p className="text-justify text-sm font-normal">
+            </h4>
+            <p className="text-justify text-sm text-gray-700 font-normal">
               Abogada litigante y penalista con estudios en Universidad Central
               de Chile. Posee una gran experiencia laboral en área del derecho
               penal, desarrollandose como Defensora Penal Pública, abogada
@@ -85,10 +93,10 @@ const Nosotros = () => {
               alt="Imagen de abogado Hugo Bello"
               className="profile_img rounded-full"
             />
-            <h3 className="text-2xl font-bold text-gray-900 my-3">
+            <h4 className="text-2xl text-center font-bold text-yellow-600 my-3">
               Hugo Bello Cejas
-            </h3>
-            <p className="text-justify text-sm font-normal">
+            </h4>
+            <p className="text-justify text-sm text-gray-700 font-normal">
               Abogado litigante y penalista con estudios en Universidad Central
               de Chile. Cuenta con diversos estudios adicionales y de
               especialización en el área del Derecho Penal, en Universidad

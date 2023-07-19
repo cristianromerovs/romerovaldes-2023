@@ -26,6 +26,32 @@
         "async": false
       }
     },
+    "(app-client)/./public/romerovaldes-long.png": {
+      "": {
+        "id": "(sc_client)/./public/romerovaldes-long.png",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./public/romerovaldes-long.png",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/romerovaldes-long.png",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/client/image.js": {
       "": {
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
@@ -52,6 +78,32 @@
         "async": false
       }
     },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./public/logo-circle.png": {
       "": {
         "id": "(sc_client)/./public/logo-circle.png",
@@ -72,6 +124,32 @@
       "default": {
         "id": "(sc_client)/./public/logo-circle.png",
         "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/FloatingWhatsapp.jsx": {
+      "": {
+        "id": "(sc_client)/./app/components/FloatingWhatsapp.jsx",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/components/FloatingWhatsapp.jsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "FloatingWhatsapp": {
+        "id": "(sc_client)/./app/components/FloatingWhatsapp.jsx",
+        "name": "FloatingWhatsapp",
         "chunks": [
           "app/layout:app/layout"
         ],
@@ -397,6 +475,32 @@
       "async": false
     }
   },
+  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/public/romerovaldes-long.png": {
+    "": {
+      "id": "(app-client)/./public/romerovaldes-long.png",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./public/romerovaldes-long.png",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./public/romerovaldes-long.png",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
   "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/node_modules/next/dist/client/image.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
@@ -449,6 +553,58 @@
       "async": false
     }
   },
+  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/node_modules/next/dist/client/link.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    }
+  },
+  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/node_modules/next/dist/esm/client/link.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    }
+  },
   "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/public/logo-circle.png": {
     "": {
       "id": "(app-client)/./public/logo-circle.png",
@@ -469,6 +625,32 @@
     "default": {
       "id": "(app-client)/./public/logo-circle.png",
       "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    }
+  },
+  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/app/components/FloatingWhatsapp.jsx": {
+    "": {
+      "id": "(app-client)/./app/components/FloatingWhatsapp.jsx",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/components/FloatingWhatsapp.jsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "FloatingWhatsapp": {
+      "id": "(app-client)/./app/components/FloatingWhatsapp.jsx",
+      "name": "FloatingWhatsapp",
       "chunks": [
         "app/layout:app/layout"
       ],

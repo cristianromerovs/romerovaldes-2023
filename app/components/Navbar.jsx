@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Dialog } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Bars3Icon, XMarkIcon, PhoneIcon, EnvelopeIcon } from "@heroicons/react/24/outline";
 import navLogo from "../../public/logo-circle.png";
 
 const navigation = [
@@ -13,8 +13,6 @@ const navigation = [
   { name: "Servicios", href: "/servicios" },
   { name: "Agenda Consulta", href: "/agendamiento" },
 ];
-
-
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -57,7 +55,7 @@ const Navbar = () => {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-sm font-medium leading-6 text-white hover:text-yellow-600"
+                className="text-sm font-medium leading-6 text-white hover:text-gray-200"
               >
                 {item.name}
               </Link>
@@ -95,12 +93,14 @@ const Navbar = () => {
                     <Link
                       key={item.name}
                       href={item.href}
-                      className="-mx-3 block rounded-lg py-2 px-3 text-base font-medium leading-7 text-white hover:bg-gray-400/10"
-                      onClick={closeMobileMenu} // Agrega este onClick
+                      className="mx-3 block rounded-lg py-2 px-3 text-base font-medium leading-7 text-white hover:bg-gray-400/10"
+                      onClick={closeMobileMenu}
                     >
                       {item.name}
                     </Link>
                   ))}
+                  <Link href={"tel:+569-22468611"} className="mx-3 flex items-center rounded-lg py-2 px-3 text-base font-medium leading-7 text-white hover:bg-gray-400/10"><PhoneIcon className="h-4 w-4 mr-2" aria-hidden="true" />+56 922 468 611</Link>
+                  <Link href={"mailto:alejandra@romerovaldes.cl"} className="mx-3 flex items-center rounded-lg py-2 px-3 text-base font-medium leading-7 text-white hover:bg-gray-400/10"><EnvelopeIcon className="h-4 w-4 mr-2" aria-hidden="true" />alejandra@romerovaldes.cl</Link>
                 </div>
               </div>
             </div>

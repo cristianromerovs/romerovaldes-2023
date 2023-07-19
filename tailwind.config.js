@@ -13,7 +13,11 @@ module.exports = {
     "./node_modules/react-tailwindcss-datepicker/dist/index.esm.js"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        background: '#FFFFFF', // Establece el color de fondo claro para la página
+      },
+    },
   },
   plugins: [
     require('@tailwindcss/forms'),

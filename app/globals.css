@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --color-main: rgb(8 145 178);
+  --color-main: #9F580A;
   --color-semi-white: #f9f9f9;
 }
 
@@ -75,4 +75,35 @@ section.schedule_section .bg-form {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+/* Floating Whatsapp */
+.icon-whatsapp {
+  background-color: #075E54;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 100px;
+  right: 20px;
+  transition: .5s;
+}
+
+.icon-whatsapp:hover {
+  background-color: #128C7E;
+}
+
+.icon-whatsapp .bi.bi-whatsapp {
+  color: #fff;
+  height: 50%;
+  width: auto;
+}
+
+/* Footer */
+footer.footer-component {
+  bottom: 0;
+  position: absolute;
 }

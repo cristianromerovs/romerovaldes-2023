@@ -1,18 +1,14 @@
 "use client";
 
 import { useForm } from "react-hook-form";
-import { useState } from "react";
-import { TextInput, Button, Label, Radio } from "flowbite-react";
+import { TextInput, Label, Radio } from "flowbite-react";
 import { sendContactForm } from "@/lib/api";
 
 const Formulario = () => {
-  const [check1, setCheck1] = useState(false);
-  const [check2, setCheck2] = useState(false);
-  const [selectedOption, setSelectedOption] = useState("");
   const { register, handleSubmit } = useForm();
 
   const onSubmit = async (data) => {
-    const formData = { ...data, option: selectedOption };
+    const formData = { ...data };
     console.log(formData);
     try {
       await sendContactForm(formData);
@@ -21,24 +17,13 @@ const Formulario = () => {
     }
   };
 
-  const handleCheck1 = () => {
-    setSelectedOption("whatsapp");
-    setCheck1(!check1);
-    setCheck2(false);
-  };
-
-  const handleCheck2 = () => {
-    setSelectedOption("video-call");
-    setCheck2(!check2);
-    setCheck1(false);
-  };
-
   return (
     <form className="flex flex-col" onSubmit={handleSubmit(onSubmit)}>
       <p className="text-sm font-semibold mb-3">Indicanos tu correo</p>
       <TextInput
         id="email"
-        type="text"
+        type="email"
+        inputMode="email"
         placeholder="tu@correo.com"
         required={true}
         {...register("email")}
@@ -49,9 +34,10 @@ const Formulario = () => {
       </p>
       <TextInput
         id="phone"
-        type="number"
-        placeholder="+56"
+        type="tel"
+        placeholder="Tu teléfono"
         required={true}
+        inputMode="tel"
         maxLength={9}
         {...register("phone")}
         className="input__text"
@@ -61,29 +47,36 @@ const Formulario = () => {
           Elige como te contactaremos
         </legend>
         <div className="flex items-center gap-2">
-          <Radio
-            id="whatsapp"
-            name="whatsapp"
-            value="whatsapp"
-            checked={selectedOption === "whatsapp"}
-            onChange={handleCheck1}
-          />
-          <Label htmlFor="whatsapp">Whatsapp</Label>
-        </div>
-        <div className="flex items-center gap-2">
-          <Radio
-            id="video-call"
-            name="video-call"
-            value="video-call"
-            checked={selectedOption === "video-call"}
-            onChange={handleCheck2}
-          />
-          <Label htmlFor="video-call">Video llamada</Label>
+          <fieldset className="flex max-w-md flex-col gap-4" id="radio">
+            <div className="flex items-center gap-2">
+              <Radio
+                defaultChecked
+                id="whatsapp"
+                name="opción whatsapp"
+                value="whatsapp"
+                {...register("option")}
+              />
+              <Label htmlFor="whatsapp">Whatsapp</Label>
+            </div>
+            <div className="flex items-center gap-2">
+              <Radio
+                id="video-call"
+                name="opción video llamada"
+                value="video-call"
+                {...register("option")}
+              />
+              <Label htmlFor="video-call">Video llamada</Label>
+            </div>
+          </fieldset>
         </div>
       </fieldset>
-      <Button className="mt-6" type="submit">
+      <button
+        type="submit"
+        aria-label="agendar una consulta con nosotros"
+        className="block w-full mt-10 rounded-3xl bg-yellow-400 px-3.5 py-3.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-yellow-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-400"
+      >
         Agendar
-      </Button>
+      </button>
     </form>
   );
 };

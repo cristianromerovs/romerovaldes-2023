@@ -1,16 +1,4 @@
 import React from "react";
-
-import {
-  BanknotesIcon,
-  ExclamationTriangleIcon,
-  LockClosedIcon,
-  PencilSquareIcon,
-  XCircleIcon,
-  UsersIcon,
-  CommandLineIcon,
-  FaceFrownIcon,
-  BeakerIcon,
-} from "@heroicons/react/24/outline";
 import CardServicios from "../components/CardServicios";
 
 const Servicios = () => {
@@ -20,10 +8,10 @@ const Servicios = () => {
         className="my-20 md:mx-10 xl:mx-20 services_section"
         id="services"
       >
-        <h2 className="text-2xl text-center font-bold tracking-tight text-gray-900 mb-10">
+        <h2 className="text-3xl text-center md:text-start font-bold tracking-tight text-yellow-600 mb-3">
           Áreas Que Trabajamos
         </h2>
-        <div className="grid grid-cols-12 gap-6 mb-10">
+        <div className="grid grid-cols-12 gap-6 my-10">
           <CardServicios
             data={{
               titulo: "Delitos de tránsito",
