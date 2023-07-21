@@ -1,29 +1,34 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
-    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/layout.js"
     ],
-    "/nosotros/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/nosotros/page.js"
+      "static/chunks/app/page.js"
+    ],
+    "/agendamiento/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/agendamiento/page.js"
     ],
     "/servicios/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/servicios/page.js"
     ],
-    "/agendamiento/page": [
+    "/nosotros/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/agendamiento/page.js"
+      "static/chunks/app/nosotros/page.js"
+    ],
+    "/contacto/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/contacto/page.js"
     ]
   }
 }

@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import attorneyImg from "../../public/attorney.png";
-import hugoBello from "../../public/hugo-bello.png";
-import alejandraRomero from "../../public/alejandra-romero.png";
+import attorneyImg from "../../public/attorney.webp";
+import hugoBello from "../../public/hugo-bello.webp";
+import alejandraRomero from "../../public/alejandra-romero.webp";
 
 const Nosotros = () => {
   return (

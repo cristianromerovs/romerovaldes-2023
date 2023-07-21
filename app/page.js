@@ -1,5 +1,5 @@
 import Image from "next/image";
-import mainImage from "../public/main.jpeg";
+import mainImage from "../public/main.webp";
 import logoLong from "../public/romerovaldes-long.png";
 import Link from "next/link";
 

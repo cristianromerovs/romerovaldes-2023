@@ -1,10 +1,6 @@
 import { mailOptions, transporter } from "@/config/nodemailer";
 
 const htmlTemplate = (data) => {
-    const formatNumber = data.phone;
-    console.log(formatNumber);
-
-    //https://web.whatsapp.com/send?phone=56932279330
     return `
     <div style="border: 1px solid #ccc; padding: 16px;">
         <h3>Has recibido un agendamiento desde tu página web</h3>
@@ -23,15 +19,15 @@ export const POST = async (request) => {
         });
     } else {
         const data = await request.json();
-        console.log(data);
+        //console.log(data);
 
         try {
-            // await transporter.sendMail({
-            //     ...mailOptions,
-            //     subject: "Consulta agendada Web",
-            //     text: "www.romerovaldes.cl",
-            //     html: htmlTemplate(data)
-            // })
+            await transporter.sendMail({
+                ...mailOptions,
+                subject: "Consulta agendada Web",
+                text: "www.romerovaldes.cl",
+                html: htmlTemplate(data)
+            })
         } catch (error) {
             console.log(error);
         }

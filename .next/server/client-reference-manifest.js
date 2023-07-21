@@ -1,109 +1,5 @@
 self.__RSC_MANIFEST={
   "__ssr_module_mapping__": {
-    "(app-client)/./public/main.jpeg": {
-      "": {
-        "id": "(sc_client)/./public/main.jpeg",
-        "name": "",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./public/main.jpeg",
-        "name": "*",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/main.jpeg",
-        "name": "default",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/romerovaldes-long.png": {
-      "": {
-        "id": "(sc_client)/./public/romerovaldes-long.png",
-        "name": "",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./public/romerovaldes-long.png",
-        "name": "*",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/romerovaldes-long.png",
-        "name": "default",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/image.js": {
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "",
-        "chunks": [
-          "app/nosotros/page:app/nosotros/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "*",
-        "chunks": [
-          "app/nosotros/page:app/nosotros/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "default",
-        "chunks": [
-          "app/nosotros/page:app/nosotros/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "default",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./public/logo-circle.png": {
       "": {
         "id": "(sc_client)/./public/logo-circle.png",
@@ -204,6 +100,110 @@ self.__RSC_MANIFEST={
         "name": "default",
         "chunks": [
           "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/image.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "",
+        "chunks": [
+          "app/contacto/page:app/contacto/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "*",
+        "chunks": [
+          "app/contacto/page:app/contacto/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "default",
+        "chunks": [
+          "app/contacto/page:app/contacto/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/contacto/page:app/contacto/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/contacto/page:app/contacto/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [
+          "app/contacto/page:app/contacto/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./public/main.webp": {
+      "": {
+        "id": "(sc_client)/./public/main.webp",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./public/main.webp",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/main.webp",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./public/romerovaldes-long.png": {
+      "": {
+        "id": "(sc_client)/./public/romerovaldes-long.png",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./public/romerovaldes-long.png",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/romerovaldes-long.png",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
         ],
         "async": false
       }
@@ -312,80 +312,28 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./public/alejandra-romero.png": {
+    "(app-client)/./app/agendamiento/page.jsx": {
       "": {
-        "id": "(sc_client)/./public/alejandra-romero.png",
+        "id": "(sc_client)/./app/agendamiento/page.jsx",
         "name": "",
         "chunks": [
-          "app/nosotros/page:app/nosotros/page"
+          "app/agendamiento/page:app/agendamiento/page"
         ],
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./public/alejandra-romero.png",
+        "id": "(sc_client)/./app/agendamiento/page.jsx",
         "name": "*",
         "chunks": [
-          "app/nosotros/page:app/nosotros/page"
+          "app/agendamiento/page:app/agendamiento/page"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./public/alejandra-romero.png",
+        "id": "(sc_client)/./app/agendamiento/page.jsx",
         "name": "default",
         "chunks": [
-          "app/nosotros/page:app/nosotros/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/attorney.png": {
-      "": {
-        "id": "(sc_client)/./public/attorney.png",
-        "name": "",
-        "chunks": [
-          "app/nosotros/page:app/nosotros/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./public/attorney.png",
-        "name": "*",
-        "chunks": [
-          "app/nosotros/page:app/nosotros/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/attorney.png",
-        "name": "default",
-        "chunks": [
-          "app/nosotros/page:app/nosotros/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/hugo-bello.png": {
-      "": {
-        "id": "(sc_client)/./public/hugo-bello.png",
-        "name": "",
-        "chunks": [
-          "app/nosotros/page:app/nosotros/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./public/hugo-bello.png",
-        "name": "*",
-        "chunks": [
-          "app/nosotros/page:app/nosotros/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/hugo-bello.png",
-        "name": "default",
-        "chunks": [
-          "app/nosotros/page:app/nosotros/page"
+          "app/agendamiento/page:app/agendamiento/page"
         ],
         "async": false
       }
@@ -416,28 +364,106 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./app/agendamiento/page.jsx": {
+    "(app-client)/./public/alejandra-romero.webp": {
       "": {
-        "id": "(sc_client)/./app/agendamiento/page.jsx",
+        "id": "(sc_client)/./public/alejandra-romero.webp",
         "name": "",
         "chunks": [
-          "app/agendamiento/page:app/agendamiento/page"
+          "app/nosotros/page:app/nosotros/page"
         ],
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./app/agendamiento/page.jsx",
+        "id": "(sc_client)/./public/alejandra-romero.webp",
         "name": "*",
         "chunks": [
-          "app/agendamiento/page:app/agendamiento/page"
+          "app/nosotros/page:app/nosotros/page"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./app/agendamiento/page.jsx",
+        "id": "(sc_client)/./public/alejandra-romero.webp",
         "name": "default",
         "chunks": [
-          "app/agendamiento/page:app/agendamiento/page"
+          "app/nosotros/page:app/nosotros/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./public/attorney.webp": {
+      "": {
+        "id": "(sc_client)/./public/attorney.webp",
+        "name": "",
+        "chunks": [
+          "app/nosotros/page:app/nosotros/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./public/attorney.webp",
+        "name": "*",
+        "chunks": [
+          "app/nosotros/page:app/nosotros/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/attorney.webp",
+        "name": "default",
+        "chunks": [
+          "app/nosotros/page:app/nosotros/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./public/hugo-bello.webp": {
+      "": {
+        "id": "(sc_client)/./public/hugo-bello.webp",
+        "name": "",
+        "chunks": [
+          "app/nosotros/page:app/nosotros/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./public/hugo-bello.webp",
+        "name": "*",
+        "chunks": [
+          "app/nosotros/page:app/nosotros/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/hugo-bello.webp",
+        "name": "default",
+        "chunks": [
+          "app/nosotros/page:app/nosotros/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./public/map-image.webp": {
+      "": {
+        "id": "(sc_client)/./public/map-image.webp",
+        "name": "",
+        "chunks": [
+          "app/contacto/page:app/contacto/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./public/map-image.webp",
+        "name": "*",
+        "chunks": [
+          "app/contacto/page:app/contacto/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/map-image.webp",
+        "name": "default",
+        "chunks": [
+          "app/contacto/page:app/contacto/page"
         ],
         "async": false
       }
@@ -448,162 +474,6 @@ self.__RSC_MANIFEST={
     "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/app/layout": [
       "static/css/_app-client_app_globals_css.css"
     ]
-  },
-  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/public/main.jpeg": {
-    "": {
-      "id": "(app-client)/./public/main.jpeg",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./public/main.jpeg",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./public/main.jpeg",
-      "name": "default",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/public/romerovaldes-long.png": {
-    "": {
-      "id": "(app-client)/./public/romerovaldes-long.png",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./public/romerovaldes-long.png",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./public/romerovaldes-long.png",
-      "name": "default",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/node_modules/next/dist/client/image.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "",
-      "chunks": [
-        "app/nosotros/page:app/nosotros/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/nosotros/page:app/nosotros/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "default",
-      "chunks": [
-        "app/nosotros/page:app/nosotros/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/node_modules/next/dist/esm/client/image.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "",
-      "chunks": [
-        "app/nosotros/page:app/nosotros/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/nosotros/page:app/nosotros/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "default",
-      "chunks": [
-        "app/nosotros/page:app/nosotros/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/node_modules/next/dist/client/link.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    }
-  },
-  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/node_modules/next/dist/esm/client/link.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    }
   },
   "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/public/logo-circle.png": {
     "": {
@@ -705,6 +575,162 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/layout:app/layout"
+      ],
+      "async": false
+    }
+  },
+  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/node_modules/next/dist/client/image.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/contacto/page:app/contacto/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/contacto/page:app/contacto/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/contacto/page:app/contacto/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/node_modules/next/dist/esm/client/image.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/contacto/page:app/contacto/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/contacto/page:app/contacto/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/contacto/page:app/contacto/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/node_modules/next/dist/client/link.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/contacto/page:app/contacto/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/contacto/page:app/contacto/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/contacto/page:app/contacto/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/node_modules/next/dist/esm/client/link.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/contacto/page:app/contacto/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/contacto/page:app/contacto/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/contacto/page:app/contacto/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/public/main.webp": {
+    "": {
+      "id": "(app-client)/./public/main.webp",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./public/main.webp",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./public/main.webp",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/public/romerovaldes-long.png": {
+    "": {
+      "id": "(app-client)/./public/romerovaldes-long.png",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./public/romerovaldes-long.png",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./public/romerovaldes-long.png",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
       ],
       "async": false
     }
@@ -917,80 +943,28 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/public/alejandra-romero.png": {
+  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/app/agendamiento/page.jsx": {
     "": {
-      "id": "(app-client)/./public/alejandra-romero.png",
+      "id": "(app-client)/./app/agendamiento/page.jsx",
       "name": "",
       "chunks": [
-        "app/nosotros/page:app/nosotros/page"
+        "app/agendamiento/page:app/agendamiento/page"
       ],
       "async": false
     },
     "*": {
-      "id": "(app-client)/./public/alejandra-romero.png",
+      "id": "(app-client)/./app/agendamiento/page.jsx",
       "name": "*",
       "chunks": [
-        "app/nosotros/page:app/nosotros/page"
+        "app/agendamiento/page:app/agendamiento/page"
       ],
       "async": false
     },
     "default": {
-      "id": "(app-client)/./public/alejandra-romero.png",
+      "id": "(app-client)/./app/agendamiento/page.jsx",
       "name": "default",
       "chunks": [
-        "app/nosotros/page:app/nosotros/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/public/attorney.png": {
-    "": {
-      "id": "(app-client)/./public/attorney.png",
-      "name": "",
-      "chunks": [
-        "app/nosotros/page:app/nosotros/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./public/attorney.png",
-      "name": "*",
-      "chunks": [
-        "app/nosotros/page:app/nosotros/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./public/attorney.png",
-      "name": "default",
-      "chunks": [
-        "app/nosotros/page:app/nosotros/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/public/hugo-bello.png": {
-    "": {
-      "id": "(app-client)/./public/hugo-bello.png",
-      "name": "",
-      "chunks": [
-        "app/nosotros/page:app/nosotros/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./public/hugo-bello.png",
-      "name": "*",
-      "chunks": [
-        "app/nosotros/page:app/nosotros/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./public/hugo-bello.png",
-      "name": "default",
-      "chunks": [
-        "app/nosotros/page:app/nosotros/page"
+        "app/agendamiento/page:app/agendamiento/page"
       ],
       "async": false
     }
@@ -1021,28 +995,106 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/app/agendamiento/page.jsx": {
+  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/public/alejandra-romero.webp": {
     "": {
-      "id": "(app-client)/./app/agendamiento/page.jsx",
+      "id": "(app-client)/./public/alejandra-romero.webp",
       "name": "",
       "chunks": [
-        "app/agendamiento/page:app/agendamiento/page"
+        "app/nosotros/page:app/nosotros/page"
       ],
       "async": false
     },
     "*": {
-      "id": "(app-client)/./app/agendamiento/page.jsx",
+      "id": "(app-client)/./public/alejandra-romero.webp",
       "name": "*",
       "chunks": [
-        "app/agendamiento/page:app/agendamiento/page"
+        "app/nosotros/page:app/nosotros/page"
       ],
       "async": false
     },
     "default": {
-      "id": "(app-client)/./app/agendamiento/page.jsx",
+      "id": "(app-client)/./public/alejandra-romero.webp",
       "name": "default",
       "chunks": [
-        "app/agendamiento/page:app/agendamiento/page"
+        "app/nosotros/page:app/nosotros/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/public/attorney.webp": {
+    "": {
+      "id": "(app-client)/./public/attorney.webp",
+      "name": "",
+      "chunks": [
+        "app/nosotros/page:app/nosotros/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./public/attorney.webp",
+      "name": "*",
+      "chunks": [
+        "app/nosotros/page:app/nosotros/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./public/attorney.webp",
+      "name": "default",
+      "chunks": [
+        "app/nosotros/page:app/nosotros/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/public/hugo-bello.webp": {
+    "": {
+      "id": "(app-client)/./public/hugo-bello.webp",
+      "name": "",
+      "chunks": [
+        "app/nosotros/page:app/nosotros/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./public/hugo-bello.webp",
+      "name": "*",
+      "chunks": [
+        "app/nosotros/page:app/nosotros/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./public/hugo-bello.webp",
+      "name": "default",
+      "chunks": [
+        "app/nosotros/page:app/nosotros/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/public/map-image.webp": {
+    "": {
+      "id": "(app-client)/./public/map-image.webp",
+      "name": "",
+      "chunks": [
+        "app/contacto/page:app/contacto/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./public/map-image.webp",
+      "name": "*",
+      "chunks": [
+        "app/contacto/page:app/contacto/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./public/map-image.webp",
+      "name": "default",
+      "chunks": [
+        "app/contacto/page:app/contacto/page"
       ],
       "async": false
     }

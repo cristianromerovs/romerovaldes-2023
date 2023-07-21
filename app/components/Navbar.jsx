@@ -12,6 +12,7 @@ const navigation = [
   { name: "Nosotros", href: "/nosotros" },
   { name: "Servicios", href: "/servicios" },
   { name: "Agenda Consulta", href: "/agendamiento" },
+  { name: "Contacto", href: "/contacto"}
 ];
 
 const Navbar = () => {

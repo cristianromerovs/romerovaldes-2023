@@ -71,7 +71,7 @@ section.schedule_section form input[type=number] {
 }
 
 section.schedule_section .bg-form {
-  background-image: url('../public/bg-form.jpg');
+  background-image: url('../public/bg-form.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
