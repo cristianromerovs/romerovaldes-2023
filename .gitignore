@@ -3,6 +3,9 @@ logs
 *.log
 npm-debug.log*
 
+# ENV
+.env.local
+
 # Runtime data
 pids
 *.pid
