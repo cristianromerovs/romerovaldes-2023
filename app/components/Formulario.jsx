@@ -1,17 +1,21 @@
 "use client";
 
+import { useState } from "react";
 import { useForm } from "react-hook-form";
-import { TextInput, Label, Radio } from "flowbite-react";
+import { TextInput, Label, Radio, Button } from "flowbite-react";
 import { sendContactForm } from "@/lib/api";
+import DismissableAlert from "./AlertSuccess";
 
 const Formulario = () => {
   const { register, handleSubmit } = useForm();
+  const [isFormSubmitted, setIsFormSubmitted] = useState(false); 
 
   const onSubmit = async (data) => {
     const formData = { ...data };
     console.log(formData);
     try {
       await sendContactForm(formData);
+      setIsFormSubmitted(true);
     } catch (error) {
       console.log(error);
     }
@@ -19,6 +23,9 @@ const Formulario = () => {
 
   return (
     <form className="flex flex-col" onSubmit={handleSubmit(onSubmit)}>
+      {isFormSubmitted && (
+        <DismissableAlert />
+      )}
       <p className="text-sm font-semibold mb-3">Indicanos tu correo</p>
       <TextInput
         id="email"
@@ -70,13 +77,16 @@ const Formulario = () => {
           </fieldset>
         </div>
       </fieldset>
-      <button
-        type="submit"
-        aria-label="agendar una consulta con nosotros"
-        className="block w-full mt-10 rounded-3xl bg-yellow-400 px-3.5 py-3.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-yellow-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-400"
-      >
-        Agendar
-      </button>
+      <Button gradientDuoTone="cyanToBlue" size="lg" disabled={isFormSubmitted} type="submit"
+          aria-label="agendar una consulta con nosotros">{isFormSubmitted ? "Formulario Enviado" : "Agendar"}</Button>
+      {/* <button
+          type="submit"
+          aria-label="agendar una consulta con nosotros"
+          className="block w-full mt-10 rounded-3xl bg-yellow-400 px-3.5 py-3.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-yellow-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-400"
+          disabled={isFormSubmitted}
+        >
+          {isFormSubmitted ? "Formulario Enviado" : "Agendar"}
+        </button> */}
     </form>
   );
 };

@@ -19,7 +19,7 @@ export const POST = async (request) => {
         });
     } else {
         const data = await request.json();
-        //console.log(data);
+        console.log(data);
 
         try {
             await transporter.sendMail({

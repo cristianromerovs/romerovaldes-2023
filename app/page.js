@@ -46,7 +46,7 @@ export default function Home() {
                   comunicación constante para que nuestros clientes se sientan tranquilos
                   y acompañados durante todo el proceso. Nuestro despacho trabaja en
                   casos relacionados con <strong>delitos económicos, delitos sexuales,
-                    delitos de drogas, violencia familiar y conducción en estado de
+                    delitos de drogas, violencia intrafamiliar y conducción en estado de
                     ebriedad, entre otros.</strong> Si necesitas ayuda con tu caso, puedes agendar una consulta con nosotros.
                 </p>
               </div>
