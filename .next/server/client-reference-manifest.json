@@ -57,7 +57,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "",
         "chunks": [
-          "app/contacto/page:app/contacto/page"
+          "app/layout:app/layout"
         ],
         "async": false
       },
@@ -65,7 +65,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "*",
         "chunks": [
-          "app/contacto/page:app/contacto/page"
+          "app/layout:app/layout"
         ],
         "async": false
       },
@@ -73,7 +73,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "default",
         "chunks": [
-          "app/contacto/page:app/contacto/page"
+          "app/layout:app/layout"
         ],
         "async": false
       }
@@ -83,7 +83,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "",
         "chunks": [
-          "app/contacto/page:app/contacto/page"
+          "app/layout:app/layout"
         ],
         "async": false
       },
@@ -91,7 +91,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [
-          "app/contacto/page:app/contacto/page"
+          "app/layout:app/layout"
         ],
         "async": false
       },
@@ -99,7 +99,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "default",
         "chunks": [
-          "app/contacto/page:app/contacto/page"
+          "app/layout:app/layout"
         ],
         "async": false
       }
@@ -312,32 +312,6 @@
         "async": false
       }
     },
-    "(app-client)/./app/components/CardServicios.jsx": {
-      "": {
-        "id": "(sc_client)/./app/components/CardServicios.jsx",
-        "name": "",
-        "chunks": [
-          "app/servicios/page:app/servicios/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./app/components/CardServicios.jsx",
-        "name": "*",
-        "chunks": [
-          "app/servicios/page:app/servicios/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/components/CardServicios.jsx",
-        "name": "default",
-        "chunks": [
-          "app/servicios/page:app/servicios/page"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./app/agendamiento/page.jsx": {
       "": {
         "id": "(sc_client)/./app/agendamiento/page.jsx",
@@ -364,106 +338,28 @@
         "async": false
       }
     },
-    "(app-client)/./public/alejandra-romero.webp": {
+    "(app-client)/./app/components/CardServicios.jsx": {
       "": {
-        "id": "(sc_client)/./public/alejandra-romero.webp",
+        "id": "(sc_client)/./app/components/CardServicios.jsx",
         "name": "",
         "chunks": [
-          "app/nosotros/page:app/nosotros/page"
+          "app/servicios/page:app/servicios/page"
         ],
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./public/alejandra-romero.webp",
+        "id": "(sc_client)/./app/components/CardServicios.jsx",
         "name": "*",
         "chunks": [
-          "app/nosotros/page:app/nosotros/page"
+          "app/servicios/page:app/servicios/page"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./public/alejandra-romero.webp",
+        "id": "(sc_client)/./app/components/CardServicios.jsx",
         "name": "default",
         "chunks": [
-          "app/nosotros/page:app/nosotros/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/attorney.webp": {
-      "": {
-        "id": "(sc_client)/./public/attorney.webp",
-        "name": "",
-        "chunks": [
-          "app/nosotros/page:app/nosotros/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./public/attorney.webp",
-        "name": "*",
-        "chunks": [
-          "app/nosotros/page:app/nosotros/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/attorney.webp",
-        "name": "default",
-        "chunks": [
-          "app/nosotros/page:app/nosotros/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/hugo-bello.webp": {
-      "": {
-        "id": "(sc_client)/./public/hugo-bello.webp",
-        "name": "",
-        "chunks": [
-          "app/nosotros/page:app/nosotros/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./public/hugo-bello.webp",
-        "name": "*",
-        "chunks": [
-          "app/nosotros/page:app/nosotros/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/hugo-bello.webp",
-        "name": "default",
-        "chunks": [
-          "app/nosotros/page:app/nosotros/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/map-image.webp": {
-      "": {
-        "id": "(sc_client)/./public/map-image.webp",
-        "name": "",
-        "chunks": [
-          "app/contacto/page:app/contacto/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./public/map-image.webp",
-        "name": "*",
-        "chunks": [
-          "app/contacto/page:app/contacto/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/map-image.webp",
-        "name": "default",
-        "chunks": [
-          "app/contacto/page:app/contacto/page"
+          "app/servicios/page:app/servicios/page"
         ],
         "async": false
       }
@@ -532,7 +428,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/contacto/page:app/contacto/page"
+        "app/layout:app/layout"
       ],
       "async": false
     },
@@ -540,7 +436,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/contacto/page:app/contacto/page"
+        "app/layout:app/layout"
       ],
       "async": false
     },
@@ -548,7 +444,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/contacto/page:app/contacto/page"
+        "app/layout:app/layout"
       ],
       "async": false
     }
@@ -558,7 +454,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/contacto/page:app/contacto/page"
+        "app/layout:app/layout"
       ],
       "async": false
     },
@@ -566,7 +462,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/contacto/page:app/contacto/page"
+        "app/layout:app/layout"
       ],
       "async": false
     },
@@ -574,7 +470,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/contacto/page:app/contacto/page"
+        "app/layout:app/layout"
       ],
       "async": false
     }
@@ -584,7 +480,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/contacto/page:app/contacto/page"
+        "app/layout:app/layout"
       ],
       "async": false
     },
@@ -592,7 +488,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/contacto/page:app/contacto/page"
+        "app/layout:app/layout"
       ],
       "async": false
     },
@@ -600,7 +496,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/contacto/page:app/contacto/page"
+        "app/layout:app/layout"
       ],
       "async": false
     }
@@ -610,7 +506,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/contacto/page:app/contacto/page"
+        "app/layout:app/layout"
       ],
       "async": false
     },
@@ -618,7 +514,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/contacto/page:app/contacto/page"
+        "app/layout:app/layout"
       ],
       "async": false
     },
@@ -626,7 +522,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/contacto/page:app/contacto/page"
+        "app/layout:app/layout"
       ],
       "async": false
     }
@@ -943,32 +839,6 @@
       "async": false
     }
   },
-  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/app/components/CardServicios.jsx": {
-    "": {
-      "id": "(app-client)/./app/components/CardServicios.jsx",
-      "name": "",
-      "chunks": [
-        "app/servicios/page:app/servicios/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./app/components/CardServicios.jsx",
-      "name": "*",
-      "chunks": [
-        "app/servicios/page:app/servicios/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./app/components/CardServicios.jsx",
-      "name": "default",
-      "chunks": [
-        "app/servicios/page:app/servicios/page"
-      ],
-      "async": false
-    }
-  },
   "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/app/agendamiento/page.jsx": {
     "": {
       "id": "(app-client)/./app/agendamiento/page.jsx",
@@ -995,106 +865,28 @@
       "async": false
     }
   },
-  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/public/alejandra-romero.webp": {
+  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/app/components/CardServicios.jsx": {
     "": {
-      "id": "(app-client)/./public/alejandra-romero.webp",
+      "id": "(app-client)/./app/components/CardServicios.jsx",
       "name": "",
       "chunks": [
-        "app/nosotros/page:app/nosotros/page"
+        "app/servicios/page:app/servicios/page"
       ],
       "async": false
     },
     "*": {
-      "id": "(app-client)/./public/alejandra-romero.webp",
+      "id": "(app-client)/./app/components/CardServicios.jsx",
       "name": "*",
       "chunks": [
-        "app/nosotros/page:app/nosotros/page"
+        "app/servicios/page:app/servicios/page"
       ],
       "async": false
     },
     "default": {
-      "id": "(app-client)/./public/alejandra-romero.webp",
+      "id": "(app-client)/./app/components/CardServicios.jsx",
       "name": "default",
       "chunks": [
-        "app/nosotros/page:app/nosotros/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/public/attorney.webp": {
-    "": {
-      "id": "(app-client)/./public/attorney.webp",
-      "name": "",
-      "chunks": [
-        "app/nosotros/page:app/nosotros/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./public/attorney.webp",
-      "name": "*",
-      "chunks": [
-        "app/nosotros/page:app/nosotros/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./public/attorney.webp",
-      "name": "default",
-      "chunks": [
-        "app/nosotros/page:app/nosotros/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/public/hugo-bello.webp": {
-    "": {
-      "id": "(app-client)/./public/hugo-bello.webp",
-      "name": "",
-      "chunks": [
-        "app/nosotros/page:app/nosotros/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./public/hugo-bello.webp",
-      "name": "*",
-      "chunks": [
-        "app/nosotros/page:app/nosotros/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./public/hugo-bello.webp",
-      "name": "default",
-      "chunks": [
-        "app/nosotros/page:app/nosotros/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/public/map-image.webp": {
-    "": {
-      "id": "(app-client)/./public/map-image.webp",
-      "name": "",
-      "chunks": [
-        "app/contacto/page:app/contacto/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./public/map-image.webp",
-      "name": "*",
-      "chunks": [
-        "app/contacto/page:app/contacto/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./public/map-image.webp",
-      "name": "default",
-      "chunks": [
-        "app/contacto/page:app/contacto/page"
+        "app/servicios/page:app/servicios/page"
       ],
       "async": false
     }

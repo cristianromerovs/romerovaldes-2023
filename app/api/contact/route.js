@@ -22,12 +22,12 @@ export const POST = async (request) => {
         console.log(data);
 
         try {
-            await transporter.sendMail({
-                ...mailOptions,
-                subject: "Consulta agendada Web",
-                text: "www.romerovaldes.cl",
-                html: htmlTemplate(data)
-            })
+            // await transporter.sendMail({
+            //     ...mailOptions,
+            //     subject: "Consulta agendada Web",
+            //     text: "www.romerovaldes.cl",
+            //     html: htmlTemplate(data)
+            // })
         } catch (error) {
             console.log(error);
         }

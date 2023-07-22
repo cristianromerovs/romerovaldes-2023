@@ -6,7 +6,6 @@ export default function DismissableAlert() {
   return (
     <Alert
       color="success"
-      onDismiss={()=>alert("Alert dismissed!")}
       className='mb-10'
     >
       <span>

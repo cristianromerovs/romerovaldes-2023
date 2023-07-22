@@ -1,4 +1,6 @@
 {
-  "/agendamiento/page": "app/agendamiento/page.js",
-  "/nosotros/page": "app/nosotros/page.js"
+  "/servicios/page": "app/servicios/page.js",
+  "/page": "app/page.js",
+  "/api/contact/route": "app/api/contact/route.js",
+  "/agendamiento/page": "app/agendamiento/page.js"
 }
