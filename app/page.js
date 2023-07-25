@@ -12,6 +12,8 @@ export default function Home() {
             <div className="flex justify-center items-center col-span-4 md:col-span-2">
               <Image
                 src={mainImage}
+                width={250}
+                height={250}
                 alt="imagen estatua sosteniendo una balanza haciendo referencia a la justicia"
                 className="rounded-full main__img"
               />
