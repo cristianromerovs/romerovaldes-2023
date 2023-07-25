@@ -14,6 +14,7 @@ export default function Home() {
                 src={mainImage}
                 width={250}
                 height={250}
+                priority
                 alt="imagen estatua sosteniendo una balanza haciendo referencia a la justicia"
                 className="rounded-full main__img"
               />
