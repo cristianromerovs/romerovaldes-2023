@@ -10,11 +10,6 @@
       "static/chunks/main-app.js",
       "static/chunks/app/layout.js"
     ],
-    "/agendamiento/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/agendamiento/page.js"
-    ],
     "/servicios/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",

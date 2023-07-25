@@ -208,6 +208,48 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/@vercel/analytics/dist/react/index.js",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/@vercel/analytics/dist/react/index.js",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "Analytics": {
+        "id": "(sc_client)/./node_modules/@vercel/analytics/dist/react/index.js",
+        "name": "Analytics",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/@vercel/analytics/dist/react/index.js",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "track": {
+        "id": "(sc_client)/./node_modules/@vercel/analytics/dist/react/index.js",
+        "name": "track",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
       "": {
         "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
@@ -308,32 +350,6 @@ self.__RSC_MANIFEST={
         "name": "default",
         "chunks": [
           "app-client-internals:app-client-internals"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/agendamiento/page.jsx": {
-      "": {
-        "id": "(sc_client)/./app/agendamiento/page.jsx",
-        "name": "",
-        "chunks": [
-          "app/agendamiento/page:app/agendamiento/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./app/agendamiento/page.jsx",
-        "name": "*",
-        "chunks": [
-          "app/agendamiento/page:app/agendamiento/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/agendamiento/page.jsx",
-        "name": "default",
-        "chunks": [
-          "app/agendamiento/page:app/agendamiento/page"
         ],
         "async": false
       }
@@ -631,6 +647,48 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
+  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/node_modules/@vercel/analytics/dist/react/index.js": {
+    "": {
+      "id": "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "Analytics": {
+      "id": "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js",
+      "name": "Analytics",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "track": {
+      "id": "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js",
+      "name": "track",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    }
+  },
   "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/node_modules/next/dist/client/components/app-router.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
@@ -835,32 +893,6 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app-client-internals:app-client-internals"
-      ],
-      "async": false
-    }
-  },
-  "/Users/cristianeduardoromerovaldes/Desktop/Dev/romerovaldes-2023/app/agendamiento/page.jsx": {
-    "": {
-      "id": "(app-client)/./app/agendamiento/page.jsx",
-      "name": "",
-      "chunks": [
-        "app/agendamiento/page:app/agendamiento/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./app/agendamiento/page.jsx",
-      "name": "*",
-      "chunks": [
-        "app/agendamiento/page:app/agendamiento/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./app/agendamiento/page.jsx",
-      "name": "default",
-      "chunks": [
-        "app/agendamiento/page:app/agendamiento/page"
       ],
       "async": false
     }
