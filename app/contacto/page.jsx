@@ -9,7 +9,7 @@ const Contacto = () => {
         <div className="grid grid-cols-12 gap-6 mb-10">
           <div className="col-span-12">
             <h3 className="text-3xl text-center md:text-start font-bold tracking-tight text-yellow-600 mb-3">
-              Contáctanos
+              Contáctanos gratis
             </h3>
           </div>
           <div className="col-span-12 lg:col-span-4">

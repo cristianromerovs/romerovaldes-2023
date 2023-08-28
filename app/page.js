@@ -36,9 +36,9 @@ export default function Home() {
           <div className="container mx-auto px-4 mb-20 md:px-10 2xl:px-0">
             <div className="grid grid-cols-4">
               <div className="flex flex-col col-span-4">
-                <h3 className="text-3xl text-center font-bold tracking-tight text-yellow-600 mb-3">
+                <h2 className="text-3xl text-center font-bold tracking-tight text-yellow-600 mb-3">
                   ¿Por qué elegirnos?
-                </h3>
+                </h2>
                 <p className="text-base font-normal text-gray-700 text-justify" itemProp="description">
                   <b>Romero Valdés & Cía</b> es un equipo de abogados con amplia experiencia
                   en Derecho Penal y Derecho de Familia. Ofrecen soluciones legales

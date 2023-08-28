@@ -8,9 +8,9 @@ const Agendamiento = () => {
       <section className="my-20 schedule_section" id="schedule">
         <div className="grid grid-cols-12 gap-6 mb-10">
           <div className="col-span-12">
-            <h3 className="text-3xl text-center md:text-start font-bold tracking-tight text-yellow-600 mb-3 px-6">
+            <h2 className="text-3xl text-center md:text-start font-bold tracking-tight text-yellow-600 mb-3 px-6">
               Agenda tu consulta gratuita
-            </h3>
+            </h2>
           </div>
           <div className="col-span-12 md:col-span-6 calendar p-6">
             <Formulario />
