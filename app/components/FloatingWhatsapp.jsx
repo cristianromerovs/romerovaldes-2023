@@ -4,24 +4,14 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 
 export const FloatingWhatsapp = () => {
-  const [randomValue, setRandomValue] = useState(null);
   const linkTemplate = 'https://wa.me/'
-  const numberTemplateOne = '56944472414';
   const numberTemplateTwo = '56922468611';
   const messageTemplate = '¡Hola! Estuve visitando tu página y necesito asesoría jurídica';
-
-  useEffect(() => {
-    return setRandomValue(Math.random() < 0.5);
-  }, []);
 
   return (
     <Link
       className="icon-whatsapp"
-      href={
-        randomValue
-          ? `${linkTemplate}${numberTemplateOne}?text=${messageTemplate}`
-          : `${linkTemplate}${numberTemplateTwo}?text=${messageTemplate}`
-      }
+      href={`${linkTemplate}${numberTemplateTwo}?text=${messageTemplate}`}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
