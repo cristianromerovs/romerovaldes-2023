@@ -1,2 +1,4 @@
 User-agent: *
 disallow: /_next
+
+sitemap: https://www.romerovaldes.cl/sitemap.xml
