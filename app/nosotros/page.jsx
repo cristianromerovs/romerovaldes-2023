@@ -62,14 +62,17 @@ const Nosotros = () => {
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-8 my-10 gap-6">
-          <div className="col-span-12 md:col-span-4 lg:col-span-3 p-10 flex flex-col items-center shadow-lg lg:col-start-2 rounded-lg">
+
+        <div className="grid grid-cols-12 shadow-lg p-10 my-10 rounded-lg">
+          <div className="col-span-12 md:col-span-2 flex justify-center md:justify-start">
             <Image
               src={alejandraRomero}
               alt="Imagen de abogada Alejandra Romero"
               className="profile_img rounded-full"
             />
-            <h4 className="text-2xl text-center font-bold text-yellow-600 my-3">
+          </div>
+          <div className="col-span-12 md:col-span-10">
+            <h4 className="text-2xl font-bold text-center md:text-start text-yellow-600 my-3">
               Alejandra Romero Valdés
             </h4>
             <p className="text-justify text-sm text-gray-700 font-normal">
@@ -85,30 +88,6 @@ const Nosotros = () => {
               penal en Fundación Capacita. Contando además con diplomados en
               Derecho Penal parte general y Derecho Penal parte especial, ambos
               títulos otorgados por Universidad Andrés Bello.
-            </p>
-          </div>
-          <div className="col-span-12 md:col-span-4 lg:col-span-3 p-10 flex flex-col items-center shadow-lg rounded-lg">
-            <Image
-              src={hugoBello}
-              alt="Imagen de abogado Hugo Bello"
-              className="profile_img rounded-full"
-            />
-            <h4 className="text-2xl text-center font-bold text-yellow-600 my-3">
-              Hugo Bello Cejas
-            </h4>
-            <p className="text-justify text-sm text-gray-700 font-normal">
-              Abogado litigante y penalista con estudios en Universidad Central
-              de Chile. Cuenta con diversos estudios adicionales y de
-              especialización en el área del Derecho Penal, en Universidad
-              Autonoma de Nuevo León, México. Mantiene una gran experiencia
-              laboral como abogado en Derecho migratorio sumado a esto, como
-              abogado litigante Penal. Además posee estudios de
-              perfeccionamiento en Derecho Penal, relacionadas con la Litigación
-              Penal en Fundación Capacita, adicionalmente cuenta con cursos en
-              materias de narcotráfico y delitos sexuales. Dirige activamente
-              conferencias y charlas sobre materias de su especialidad en las
-              prestigiosas universidades Autonoma de Nueva León, México y
-              Universidad de Baja California, México.
             </p>
           </div>
         </div>

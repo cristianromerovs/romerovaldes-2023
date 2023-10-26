@@ -1,4 +1,7 @@
 User-agent: *
-disallow: /_next
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: /_next/
+Disallow: /#!/
 
 sitemap: https://www.romerovaldes.cl/sitemap.xml
